@@ -24,7 +24,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-| # Variables                       |
+| Variables                         |
 |-----------------------------------|
 | "activities"                      |
 | "subj"                            |
@@ -107,5 +107,3 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 | "fBodyBodyGyroJerkMag-mean()"     |
 | "fBodyBodyGyroJerkMag-std()"      |
 | "fBodyBodyGyroJerkMag-meanFreq()" |
-| "Activity"                        |
-| "Subject"                         |
