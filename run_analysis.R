@@ -33,7 +33,7 @@ names(y_data) <- "Activity"
 
 # 4. Appropriately labels the data set with descriptive variable names.
 
-names(x_data_mean_std) <- read.table("features.txt")[grep("-(mean|std)\\(\\)", read.table("features.txt")[, 2]), 2] 
+names(x_data_mean_std) <- read.table("features.txt")[grep(".*((mean)|(std)).*", read.table("features.txt")[, 2]), 2] 
 
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
